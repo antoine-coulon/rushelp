@@ -1,6 +1,6 @@
 # Rushelp
 
-This template aims to simplify [Rush](https://rushjs.io/) contributions by providing a Docker environment where we both
+This template aims to simplify [Rush.js](https://rushjs.io/) contributions by providing a Docker environment where we both
 have the `rushstack` monorepo in `/rush` directory and a dummy Rush monorepo setup located in `/build` 
 which is simply a copy of the current repository.
 
