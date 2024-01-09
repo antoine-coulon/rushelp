@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "rimraf ./lib/ && tsc",
-    "my-bulk-command": ""
+    "my-bulk-command": "my-bulk-command"
   },
   "dependencies": {
     "colors": "^1.4.0"

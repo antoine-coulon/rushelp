@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "my-bulk-command": "my-bulk-command"
+    "my-bulk-command": "tsc"
   },
   "dependencies": {
     "my-controls": "workspace:*",

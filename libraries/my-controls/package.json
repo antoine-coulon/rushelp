@@ -8,7 +8,7 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "my-bulk-command": "my-bulk-command"
+    "my-bulk-command": "tsc"
   },
   "devDependencies": {
     "my-toolchain": "workspace:*",
