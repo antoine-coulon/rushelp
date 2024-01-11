@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y vim && \
     apt-get install -y mc
 
-
+# We voluntarily don't checkout so that we have lot of unwanted unstaged files
 COPY .git/ .git/
 
 RUN corepack enable
