@@ -1,5 +1,5 @@
 
-FROM node:18 as build
+FROM node:18 as build   
 
 RUN apt-get update && \
     apt-get upgrade -y && \
@@ -7,14 +7,14 @@ RUN apt-get update && \
     apt-get install -y vim && \
     apt-get install -y mc
 
-
-COPY .git/ .git/
-
 RUN corepack enable
 
 RUN npm install -g @microsoft/rush@5.112.2
 
 WORKDIR /build
+
+COPY .git/ .git/
+RUN git checkout -- .
 
 COPY ./apps ./apps
 COPY ./libraries ./libraries
